@@ -1,0 +1,124 @@
+body{
+	background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.6)), url("../img/bg_default.jpg");
+	background-color: #ccc;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+
+}
+
+ul li{
+	list-style: none;
+}
+
+ul{
+	display: flex;
+	padding: 0px;
+}
+
+li{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.bg{
+	z-index: -10;
+	:height: 100vh;
+}
+
+.not-found{
+	display: none;
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.container{
+	z-index: 2;
+}
+.row{
+	width: 100%;
+	margin: 0px;
+}
+
+.image{
+	padding-top: 20px;
+}
+
+.user-icon{
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	border: 2px solid;
+	border-color: white;
+}
+
+.caption{
+	color: white;
+	padding-top: 50px;
+}
+
+.caption h4{
+	font-size: 36px;
+}
+.content{
+	margin-top: 25px;
+}
+
+.section-header{
+	color: white;
+}
+
+.section-header h2{
+	display: inline-flex;
+	vertical-align: bottom;
+	margin-left: 15px;
+}
+
+.section-detail{
+	color: white;
+	margin-left: 65px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.social-detail{
+	color: white;
+	margin-left: 65px;
+	font-size: 20px;
+}
+
+.work-timeline{
+	margin-left: 65px;
+	border-left: 2px solid white;
+}
+
+.work-item{
+	display: inline-flex;
+	margin-left: -24px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.work-item span{
+	height: 47px;
+	margin-left: 10px;
+	display: table;
+	color: white;
+}
+
+.work-item p{
+	display: table-cell;
+  	vertical-align: middle;
+}
+
+.work-item h6{
+	background-color: orange;
+	margin: 0px;
+	padding: 13px 5px;
+	border: 1px solid red;
+	border-radius: 50%;
+}

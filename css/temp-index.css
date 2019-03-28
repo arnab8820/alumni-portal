@@ -1,0 +1,68 @@
+body{
+	background-image: url("../img/392867.jpg");
+	background-color: #ccc;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.row{
+	margin: 0px;
+	padding: 0px;
+}
+
+.header{
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+}
+
+.header h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 72px;
+}
+
+.header p{
+	font-size: 22px;
+}
+
+.main{
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+}
+
+.main input, select, button{
+	width: 100%;
+	margin: 5px;
+	padding: 5px 15px;
+	background-color: #00000000;
+	border: 0px;
+	border-bottom: 1px solid #000;
+}
+
+.main input:focus{
+	border-bottom: 1px solid yellow;
+}
+
+.main input[type="submit"]{
+	background-color: #04f;
+}
+
+.main input[type="submit"]:hover{
+	background-color: #00f;
+}
+
+.main h2{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+h5{
+	margin: 15px;
+}
+
+.footer{
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
