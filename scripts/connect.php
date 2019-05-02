@@ -1,10 +1,10 @@
 <?php
 
 //database configuration
-$host = "sql305.epizy.com";      //database host
-$db = "epiz_22038220_alumni";    //database name
-$user = "epiz_22038220";           //database username
-$pass = "testsite3";               //database password
+$host = "";      //database host
+$db = "";    //database name
+$user = "";           //database username
+$pass = "";               //database password
 $hdb = "mysql:host=".$host.";dbname=".$db;
 
 //$query = "select * from user_detail";
